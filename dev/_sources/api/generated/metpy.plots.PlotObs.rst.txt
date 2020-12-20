@@ -22,6 +22,7 @@ PlotObs
       ~PlotObs.name
       ~PlotObs.obsdata
       ~PlotObs.parent
+      ~PlotObs.plot_units
       ~PlotObs.plotdata
       ~PlotObs.reduce_points
       ~PlotObs.time
@@ -29,6 +30,7 @@ PlotObs
       ~PlotObs.vector_field
       ~PlotObs.vector_field_color
       ~PlotObs.vector_field_length
+      ~PlotObs.vector_plot_units
 
    
    
@@ -55,9 +57,12 @@ PlotObs
       ~PlotObs.on_trait_change
       ~PlotObs.set_trait
       ~PlotObs.setup_instance
+      ~PlotObs.trait_defaults
       ~PlotObs.trait_events
+      ~PlotObs.trait_has_value
       ~PlotObs.trait_metadata
       ~PlotObs.trait_names
+      ~PlotObs.trait_values
       ~PlotObs.traits
       ~PlotObs.unobserve
       ~PlotObs.unobserve_all
@@ -81,6 +86,7 @@ PlotObs
    .. autoattribute:: name
    .. autoattribute:: obsdata
    .. autoattribute:: parent
+   .. autoattribute:: plot_units
    .. autoattribute:: plotdata
    .. autoattribute:: reduce_points
    .. autoattribute:: time
@@ -88,6 +94,7 @@ PlotObs
    .. autoattribute:: vector_field
    .. autoattribute:: vector_field_color
    .. autoattribute:: vector_field_length
+   .. autoattribute:: vector_plot_units
 
    
    
@@ -113,9 +120,12 @@ PlotObs
    .. automethod:: on_trait_change
    .. automethod:: set_trait
    .. automethod:: setup_instance
+   .. automethod:: trait_defaults
    .. automethod:: trait_events
+   .. automethod:: trait_has_value
    .. automethod:: trait_metadata
    .. automethod:: trait_names
+   .. automethod:: trait_values
    .. automethod:: traits
    .. automethod:: unobserve
    .. automethod:: unobserve_all
